@@ -1,0 +1,14 @@
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\bin\Debug\net9.0\CsharpTodoDia.exe
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\bin\Debug\net9.0\CsharpTodoDia.deps.json
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\bin\Debug\net9.0\CsharpTodoDia.runtimeconfig.json
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\bin\Debug\net9.0\CsharpTodoDia.dll
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\bin\Debug\net9.0\CsharpTodoDia.pdb
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.AssemblyInfoInputs.cache
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.AssemblyInfo.cs
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.csproj.CoreCompileInputs.cache
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.dll
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\refint\CsharpTodoDia.dll
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.pdb
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.genruntimeconfig.cache
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\ref\CsharpTodoDia.dll
