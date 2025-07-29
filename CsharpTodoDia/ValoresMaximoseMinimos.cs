@@ -8,7 +8,7 @@ class ValoresMaximosEMinimos
         bool booleano = true; // O valor máximo para booleano é sempre true
         sbyte sb = sbyte.MaxValue;
         byte b = byte.MaxValue;
-        short s = short.MaxValue;
+        short s = short.MaxValue; 
         ushort us = ushort.MaxValue;
         long l = long.MaxValue;
         ulong ul = ulong.MaxValue;
