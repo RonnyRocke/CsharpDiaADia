@@ -6,7 +6,7 @@ public class TiposPrimitivos
         int inteiro = 10;
         double pontoFlutuante = 3.14;
         char caractere = 'A';
-        bool booleano = true;
+        bool booleano = true; 
         // Imprime os valores dos tipos primitivos
         Console.WriteLine("\tExemplo de Tipos Primitivos:");
         Console.WriteLine("----------------------------");
