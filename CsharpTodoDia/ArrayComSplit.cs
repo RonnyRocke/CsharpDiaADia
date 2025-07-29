@@ -12,6 +12,7 @@ public class FraseComSplit
         {
             Console.Write($"\n{vec[i]}");
         }
+        
         Console.WriteLine();
         Console.WriteLine("\nObs: Agora, vamos atribuir as palavras a variáveis separadas:\n");
         for (int i = 0; i < vec.Count(); i++)
