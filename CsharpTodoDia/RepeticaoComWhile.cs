@@ -1,5 +1,5 @@
 class RepeticaoComWhile
- {
+ { 
      public void repetindo()
      {
          int contador = 0;
