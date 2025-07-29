@@ -81,9 +81,6 @@ namespace CsharpTodoDia
             fraseComSplit.arrayscomSplit();
             Console.WriteLine("----------------------------");
             Console.WriteLine();
-            // Espera o usuário pressionar uma tecla para encerrar o programa.
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
             #endregion
             #region ValoresMaximosEMinimos
             // Exemplo de valores máximos e mínimos de tipos primitivos em C#
@@ -93,6 +90,19 @@ namespace CsharpTodoDia
             valoresMaximosEMinimos.valoresMaximoseMinimos();
             Console.WriteLine("----------------------------");
             Console.WriteLine();
+            #endregion
+            #region ClassesEEncapsulamento
+            // Exemplo de classes e encapsulamento em C#
+            Console.WriteLine("\tExemplo de Classes e Encapsulamento:");
+            Console.WriteLine("----------------------------");
+            ClasseseEncapsulamento classeEncapsulamento = new ClasseseEncapsulamento();
+            classeEncapsulamento.Numero = 10; // Define o valor do número
+            classeEncapsulamento.ExibirNumero(); // Exibe o número
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+             // Espera o usuário pressionar uma tecla para encerrar o programa.
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
             #endregion
         }
     }
