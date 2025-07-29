@@ -72,9 +72,27 @@ namespace CsharpTodoDia
             estrutura.estruturaControle();
             Console.WriteLine("----------------------------");
             Console.WriteLine();
-             // Espera o usuário pressionar uma tecla para encerrar o programa.
+            #endregion
+            #region ArrayComSplit
+            // Exemplo de uso de arrays e o método Split em C#          
+            Console.WriteLine("\tExemplo de Array com Split:");
+            Console.WriteLine("----------------------------");
+            FraseComSplit fraseComSplit = new FraseComSplit();
+            fraseComSplit.arrayscomSplit();
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+            // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
+            #endregion
+            #region ValoresMaximosEMinimos
+            // Exemplo de valores máximos e mínimos de tipos primitivos em C#
+            Console.WriteLine("\tExemplo de Valores Máximos e Mínimos:");
+            Console.WriteLine("----------------------------");
+            ValoresMaximosEMinimos valoresMaximosEMinimos = new ValoresMaximosEMinimos();
+            valoresMaximosEMinimos.valoresMaximoseMinimos();
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
             #endregion
         }
     }
