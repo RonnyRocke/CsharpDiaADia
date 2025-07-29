@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsharpTodoDia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7a50ccad66a9ad41f2ebd300c2eb4a885a7ad3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cf55db39ba008c599d8388dc21ce3dd68dc44b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsharpTodoDia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsharpTodoDia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

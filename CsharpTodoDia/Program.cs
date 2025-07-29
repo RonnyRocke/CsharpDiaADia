@@ -63,7 +63,16 @@ namespace CsharpTodoDia
             repeticao.repetindo();
             Console.WriteLine("----------------------------");
             Console.WriteLine();
-              // Espera o usuário pressionar uma tecla para encerrar o programa.
+            #endregion
+            #region EstruturaControle
+            // Exemplo de estrutura de controle em C#
+            Console.WriteLine("\tExemplo de Estrutura de Controle:");
+            Console.WriteLine("----------------------------");
+            EstruturaControle estrutura = new EstruturaControle();
+            estrutura.estruturaControle();
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+             // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
             #endregion
