@@ -10,6 +10,6 @@ class Funcao
         {
             Console.WriteLine($"Hello, World {i}");
         }
-        Console.WriteLine();
+        Console.WriteLine(); 
     }
 }
