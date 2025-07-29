@@ -54,9 +54,19 @@ namespace CsharpTodoDia
             Console.WriteLine("----------------------------");
             Console.WriteLine();
             #endregion
-            // Espera o usuário pressionar uma tecla para encerrar o programa.
+            #region RepeticaoComWhile
+
+            // Exemplo de repetição com while em C#
+            Console.WriteLine("\tExemplo de Repetição com While:");
+            Console.WriteLine("----------------------------");
+            RepeticaoComWhile repeticao = new RepeticaoComWhile();
+            repeticao.repetindo();
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+              // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
+            #endregion
         }
     }
 }

@@ -12,3 +12,4 @@ C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\refint\C
 C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.pdb
 C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.genruntimeconfig.cache
 C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\ref\CsharpTodoDia.dll
+C:\Users\Ronny Rocke\Documents\vscode\C#\CsharpTodoDia\obj\Debug\net9.0\CsharpTodoDia.sourcelink.json
