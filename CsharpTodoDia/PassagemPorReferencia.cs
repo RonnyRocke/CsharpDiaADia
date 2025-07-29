@@ -9,4 +9,4 @@ class PassagemPorReferencia
         numero += 10; 
         // não afeta o valor original
     }
-}
+} 
