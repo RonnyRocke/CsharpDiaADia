@@ -100,7 +100,16 @@ namespace CsharpTodoDia
             classeEncapsulamento.ExibirNumero(); // Exibe o número
             Console.WriteLine("----------------------------");
             Console.WriteLine();
-             // Espera o usuário pressionar uma tecla para encerrar o programa.
+            #endregion
+            #region PostoCombustivel
+            // Exemplo de classe PostoCombustivel que simula o abastecimento de combustíveis
+            Console.WriteLine("\tExemplo de Posto de Combustível:");
+            Console.WriteLine("----------------------------");
+            PostoCombustivel postoCombustivel = new PostoCombustivel();
+            postoCombustivel.abastecer();
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+              // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
             #endregion
