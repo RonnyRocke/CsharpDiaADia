@@ -1,5 +1,5 @@
 public class Produtos
-{
+{ 
     public required string Nome;
     public double Preco;
     public int Quantidade;
