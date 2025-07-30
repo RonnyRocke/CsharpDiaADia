@@ -101,7 +101,7 @@ namespace CsharpTodoDia
             Console.WriteLine("----------------------------");
             Console.WriteLine();
             #endregion
-            #region PostoCombustivel
+            #region PostoCombustivelExercicio
             // Exemplo de classe PostoCombustivel que simula o abastecimento de combustíveis
             Console.WriteLine("\tExemplo de Posto de Combustível:");
             Console.WriteLine("----------------------------");
@@ -111,7 +111,7 @@ namespace CsharpTodoDia
             Console.WriteLine();
               // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+            Console.ReadLine();
             #endregion
         }
     }
