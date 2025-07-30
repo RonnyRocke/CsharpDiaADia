@@ -109,7 +109,43 @@ namespace CsharpTodoDia
             postoCombustivel.abastecer();
             Console.WriteLine("----------------------------");
             Console.WriteLine();
-              // Espera o usuário pressionar uma tecla para encerrar o programa.
+            #endregion
+            #region Gerenciamento de Produtos Exercício]
+            // Exemplo de gerenciamento de produtos em estoque
+            Console.WriteLine("\n\tExemplo de Gerenciamento de Produtos:");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("\nEntre os dados do produto:");
+            Console.Write("Nome: ");
+            string nomeProduto = Console.ReadLine() ?? "Produto Desconhecido";
+            Produtos produto = new Produtos { Nome = nomeProduto };
+            Console.Write("Preço: ");
+            produto.Preco = double.Parse(Console.ReadLine() ?? "0");
+            Console.Write("Quantidade no estoque: ");
+            produto.Quantidade = int.Parse(Console.ReadLine() ?? "0");
+            Console.WriteLine($"\nDados do produto: {produto.Nome}, Preço: {produto.Preco}, Quantidade: {produto.Quantidade}");
+            Console.WriteLine("Digite o número de produtos a adicionar ao estoque:");
+            int quantidadeAdicionar = int.Parse(Console.ReadLine() ?? "0");
+            produto.AdicionarProdutos(quantidadeAdicionar);
+            Console.WriteLine($"\nDados atualizados: {produto.Nome}, Preço: {produto.Preco}, Quantidade: {produto.Quantidade}");
+            Console.WriteLine("Digite o número de produtos a remover do estoque:");
+            int quantidadeRemover = int.Parse(Console.ReadLine() ?? "0");
+            produto.RemoverProdutos(quantidadeRemover);
+            Console.WriteLine($"\nDados atualizados: {produto.Nome}, Preço: {produto.Preco}, Quantidade: {produto.Quantidade}");
+            Console.WriteLine($"Valor total em estoque: {produto.ValorTotalEmEstoque()}");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+            #endregion
+            #region JogoDaCobrinha
+            // Exemplo de jogo da cobrinha
+            Console.WriteLine("\tExemplo de Jogo da Cobrinha:");
+            Console.WriteLine("----------------------------");
+            JogoDaCobrinha jogoDaCobrinha = new JogoDaCobrinha();
+            jogoDaCobrinha.Iniciar();
+            jogoDaCobrinha.Jogar();
+            jogoDaCobrinha.Encerrar();
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+            // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
             #endregion
