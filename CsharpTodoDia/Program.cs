@@ -158,6 +158,25 @@ namespace CsharpTodoDia
             Console.WriteLine($"{dividendo} / {divisor} = {quociente}, Resto = {resultadoDoResto}");
             Console.WriteLine("----------------------------");
             Console.WriteLine();
+            #endregion
+            #region ParamseArrays
+            // Exemplo de uso de parâmetros variáveis (params) em C#
+            Console.WriteLine("\tExemplo de Parâmetros Variáveis (params):");
+            Console.WriteLine("----------------------------");
+            ParamseArrays paramseArrays = new ParamseArrays();
+            Console.WriteLine("Digite os números a serem somados (separados por espaço):");
+            string[] numerosInput = Console.ReadLine()?.Split(' ') ?? Array.Empty<string>();
+            int[] numeros = Array.ConvertAll(numerosInput, int.Parse);
+            try
+            {
+                paramseArrays.somandoTudo(numeros);
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine($"Erro: {ex.Message}");
+            }
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
              // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
