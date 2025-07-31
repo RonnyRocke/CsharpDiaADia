@@ -199,7 +199,7 @@ namespace CsharpTodoDia
             Console.WriteLine();
             #endregion
             #region ClasseEstatica
-            // Exemplo de classe estática em C#
+            // Exemplo de classe estática em C# 
             Console.WriteLine("\tExemplo de Classe Estática:");
             Console.WriteLine("----------------------------");
             // ClasseEstatica classeestatica = new ClasseEstatica(); // Não é necessário instanciar uma classe estática
