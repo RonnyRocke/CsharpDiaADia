@@ -177,6 +177,26 @@ namespace CsharpTodoDia
             }
             Console.WriteLine("----------------------------");
             Console.WriteLine();
+            #endregion
+            #region ConstrutoresSobrecarregados
+            // Exemplo de construtores sobrecarregados em C#
+            Console.WriteLine("\tExemplo de Construtores Sobrecarregados:");
+            Console.WriteLine("----------------------------");
+            ConstrutoresSobrecarregados? pessoa1 = new ConstrutoresSobrecarregados();
+            ConstrutoresSobrecarregados pessoa2 = new ConstrutoresSobrecarregados("João");
+            ConstrutoresSobrecarregados pessoa3 = new ConstrutoresSobrecarregados("Maria", 30);
+            pessoa1.Nome = "Carlos";
+            pessoa1.ExibirInformacoes();
+            pessoa2.ExibirInformacoes();
+            pessoa3.ExibirInformacoes();
+            Console.WriteLine(pessoa1);
+            // O destrutor será chamado automaticamente quando o objeto for coletado pelo garbage collector.
+            pessoa1 = null; // Define o objeto como nulo para forçar a coleta de lixo
+            GC.Collect(); // Solicita a coleta de lixo
+            GC.WaitForPendingFinalizers(); // Aguarda a finalização dos objetos pendentes
+            Console.WriteLine("Coleta de lixo concluída.");          
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
              // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
