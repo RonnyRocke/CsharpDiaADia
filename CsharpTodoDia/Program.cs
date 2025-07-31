@@ -145,7 +145,20 @@ namespace CsharpTodoDia
             jogoDaCobrinha.Encerrar();
             Console.WriteLine("----------------------------");
             Console.WriteLine();
-            // Espera o usuário pressionar uma tecla para encerrar o programa.
+            #endregion
+            #region ArgumentoOut
+            // Exemplo de uso de argumento out em C#
+            Console.WriteLine("\tExemplo de Argumento Out:");
+            Console.WriteLine("----------------------------");
+            int dividendo = int.Parse(Console.ReadLine() ?? "0");
+            int divisor = int.Parse(Console.ReadLine() ?? "1");
+            double resultadoDoResto;
+            ArgumentoOut argumentoOut = new ArgumentoOut();
+            double quociente = argumentoOut.divide(dividendo, divisor, out resultadoDoResto);
+            Console.WriteLine($"{dividendo} / {divisor} = {quociente}, Resto = {resultadoDoResto}");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+             // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
             #endregion
