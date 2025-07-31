@@ -110,7 +110,7 @@ namespace CsharpTodoDia
             Console.WriteLine("----------------------------");
             Console.WriteLine();
             #endregion
-            #region Gerenciamento de Produtos Exercício]
+            #region Gerenciamento de Produtos Exercício
             // Exemplo de gerenciamento de produtos em estoque
             Console.WriteLine("\n\tExemplo de Gerenciamento de Produtos:");
             Console.WriteLine("----------------------------");
@@ -194,10 +194,23 @@ namespace CsharpTodoDia
             pessoa1 = null; // Define o objeto como nulo para forçar a coleta de lixo
             GC.Collect(); // Solicita a coleta de lixo
             GC.WaitForPendingFinalizers(); // Aguarda a finalização dos objetos pendentes
-            Console.WriteLine("Coleta de lixo concluída.");          
+            Console.WriteLine("Coleta de lixo concluída.");
             Console.WriteLine("----------------------------");
             Console.WriteLine();
-             // Espera o usuário pressionar uma tecla para encerrar o programa.
+            #endregion
+            #region ClasseEstatica
+            // Exemplo de classe estática em C#
+            Console.WriteLine("\tExemplo de Classe Estática:");
+            Console.WriteLine("----------------------------");
+            // ClasseEstatica classeestatica = new ClasseEstatica(); // Não é necessário instanciar uma classe estática
+            // classestatica.Alerta(); não é possível chamar métodos de uma classe estática dessa forma
+            ClasseEstatica.alerta = false; // Define o estado do alerta como verdadeiro
+            Console.WriteLine($"Estado inicial do alerta: {ClasseEstatica.alerta}");
+            ClasseEstatica.Alerta(); // Chama o método Alerta da classe estática
+            Console.WriteLine($"Estado final do alerta: {ClasseEstatica.alerta}");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+              // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
             #endregion
