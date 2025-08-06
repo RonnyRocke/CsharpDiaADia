@@ -210,7 +210,20 @@ namespace CsharpTodoDia
             Console.WriteLine($"Estado final do alerta: {ClasseEstatica.alerta}");
             Console.WriteLine("----------------------------");
             Console.WriteLine();
-              // Espera o usuário pressionar uma tecla para encerrar o programa.
+            #endregion
+
+            #region ChamandoConstrutorDeBase
+            // Exemplo de chamada ao construtor da classe base em C#
+            Console.WriteLine("\tExemplo de Chamando Construtor de Base:");
+            Console.WriteLine("----------------------------");
+            Base base1 = new Base("Ana", "123.456.789-00", 25);
+            Base base2 = new Base("Pedro", "111.222.333-44", 40);
+            Console.WriteLine($"Nome: {base1.nome}");
+            ChamandoConstrutorDeBase chamandoConstrutor = new ChamandoConstrutorDeBase("Bruno", "987.654.321-00", 30);
+            chamandoConstrutor.MostrarDados();
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+               // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
             #endregion
