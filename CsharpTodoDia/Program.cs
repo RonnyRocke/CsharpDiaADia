@@ -223,7 +223,18 @@ namespace CsharpTodoDia
             chamandoConstrutor.MostrarDados();
             Console.WriteLine("----------------------------");
             Console.WriteLine();
-               // Espera o usuário pressionar uma tecla para encerrar o programa.
+            #endregion
+            #region MultiplosConstrutores
+            // Exemplo de múltiplos construtores em C#
+            Console.WriteLine("\tExemplo de Múltiplos Construtores:");
+            Console.WriteLine("----------------------------");
+            MultiplosConstrutores construtor1 = new MultiplosConstrutores("Imprimindo mensagem dos construtores");
+            Console.WriteLine(construtor1);
+            MultiplosConstrutores3 construtor3 = new MultiplosConstrutores3("Imprimindo "+MultiplosConstrutores.qnt_msgs++.ToString()+" mensagem ");
+            MultiplosConstrutores.qnt_msgs = 0; // Reseta o contador de mensagens
+            Console.WriteLine("----------------------------");
+            Console.WriteLine();
+            // Espera o usuário pressionar uma tecla para encerrar o programa.
             Console.WriteLine("Press any key to exit...");
             Console.ReadLine();
             #endregion
